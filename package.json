@@ -1,0 +1,35 @@
+{
+  "name": "spec",
+  "version": "1.0.0",
+  "description": "一系列的前端规范，让规范的力量在项目中发挥更大的价值",
+  "main": "dist/index.js",
+  "types": "types/index.ts",
+  "scripts": {
+    "build": "npm run build:types && npm run build:ts",
+    "build:types": "tsc --emitDeclarationOnly",
+    "build:ts": "npx tsc --build tsconfig.json"
+  },
+  "keywords": [
+    "eslint",
+    "commitlint",
+    "spec"
+  ],
+  "author": "huixisheng@gmail.com",
+  "license": "MIT",
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "dependencies": {
+    "@commitlint/config-angular": "^8.3.4"
+  },
+  "peerDependencie": {
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.0",
+    "commitlint": "^8.3.5",
+    "husky": "^4.2.1",
+    "typescript": "^3.7.5"
+  }
+}

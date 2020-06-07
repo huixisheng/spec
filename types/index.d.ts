@@ -1,2 +1,3 @@
 import commitlint from './commitlint';
-export { commitlint, };
+import prettier from './prettier';
+export { commitlint, prettier, };

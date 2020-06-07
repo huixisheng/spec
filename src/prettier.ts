@@ -1,7 +1,7 @@
 // Options · Prettier [https://prettier.io/docs/en/options.html#end-of-line](https://prettier.io/docs/en/options.html)
 export default {
   // 超过最大值换行
-  "printWidth": 120,
+  "printWidth": 100,
   "tabWidth": 2,
   "useTabs": false,
   // 句尾添加分号

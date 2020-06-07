@@ -28,6 +28,7 @@
 # ----
 # fix: 修复无法我的页面无法上传图片问题
 #
-# fixed jiraId1,
-# closed jiraId2
+# fixed #jiraId1,
+# closed #jiraId2
+# closed #issueId1
 # ----

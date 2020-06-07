@@ -1,12 +1,12 @@
 declare const _default: {
-    "printWidth": number;
-    "tabWidth": number;
-    "useTabs": boolean;
-    "semi": boolean;
-    "singleQuote": boolean;
-    "jsxSingleQuote": boolean;
-    "trailingComma": string;
-    "bracketSpacing": boolean;
+    printWidth: number;
+    tabWidth: number;
+    useTabs: boolean;
+    semi: boolean;
+    singleQuote: boolean;
+    jsxSingleQuote: boolean;
+    trailingComma: string;
+    bracketSpacing: boolean;
     /**
         <button
           className="prettier-class"
@@ -16,8 +16,8 @@ declare const _default: {
           Click Here
         </button>
      */
-    "jsxBracketSameLine": boolean;
-    "arrowParens": string;
-    "endOfLine": string;
+    jsxBracketSameLine: boolean;
+    arrowParens: string;
+    endOfLine: string;
 };
 export default _default;

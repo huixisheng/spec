@@ -1,6 +1,6 @@
 {
   "name": "@x-scaffold/spec",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "一系列的前端规范，让规范的力量在项目中发挥更大的价值",
   "main": "dist/index.js",
   "types": "types/index.ts",
